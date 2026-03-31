@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Axios instance
 const api = axios.create({
-    baseURL: "http://localhost:3000",
+    baseURL: "https://yt-genai-backend.onrender.com",
     withCredentials: true,
 });
 
